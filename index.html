@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #f6790b;
+    }
+    h1 {
+        text-align: center;
+    }
+    .parrent {
+        display: flex;
+        justify-content: center;
+    }
+    .formSubmit {
+        background-color: #ffffff;
+        width: 40%;
+        padding: 10px;
+    }
+    #i1{
+        width: 90%;
+        height: 20px;
+    }
+    textarea{
+        width: 95%;
+        max-width: 95%;
+    }
+    button{
+        background-color: #f1cb9c;
+        width: 95%;
+        height: 30px;
+    }
+    ul{
+        text-decoration: none;
+        list-style:none ;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <h1>Survey Form For Student</h1>
+    <div class="parrent">
+
+
+
+        <div class="formSubmit">
+            <h3>Name</h3>
+            <input type="text" name="name" id="i1" placeholder="Enter your name">
+            <h3>Email</h3>
+            <input type="email" name="email" id="i1" placeholder="Enter your email">
+            <h3>Age</h3>
+            <input type="number" name="age" id="i1" placeholder="Enter your age">
+            <p>Which option best describes you?</p>
+            <select name="describe" id="i1">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Orther</option>
+            </select>
+            <br>
+            
+            
+            <p>Language and frameworks known(Check all that apply)</p>
+            <ul>
+                <li><input type="checkbox" name="" id="">C</li>
+                <li><input type="checkbox" name="" id="">C++ </li>
+                <li><input type="checkbox" name="" id="">C#</li>
+                <li><input type="checkbox" name="" id="">Java</li>
+                <li><input type="checkbox" name="" id="">Python</li>
+                <li><input type="checkbox" name="" id="">JavaScript</li>
+                <li><input type="checkbox" name="" id="">React</li>
+                <li><input type="checkbox" name="" id="">Angular</li>
+                <li><input type="checkbox" name="" id="">Diango</li>
+                <li><input type="checkbox" name="" id="">Spring</li>
+            </ul>
+
+            <p>Any comment or suggestions</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>
+                <button>Submit</button>
+                
+
+            
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
